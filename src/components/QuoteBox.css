@@ -1,0 +1,42 @@
+.quote-box {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.quote-text {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.quote {
+  font-weight: bold;
+}
+
+.author {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn.new-quote:hover {
+  background-color: #2ecc71;
+}
+
+.btn.tweet:hover {
+  background-color: #e74c3c;
+}
