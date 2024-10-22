@@ -25,7 +25,11 @@ To run the app locally, follow these steps:
    cd quote-generator
 
 2. Install dependencies:
-npm install
+   
+   ```bash
+   npm install
 
-3. Start the development server:
+3.Start the development server:
+   ```bash
 npm start
+
